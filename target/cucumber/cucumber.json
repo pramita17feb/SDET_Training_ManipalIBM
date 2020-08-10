@@ -1,0 +1,827 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 17,
+        "name": "BMI Calculation of 5 user",
+        "description": "",
+        "id": "to-test-bmi-calculation;bmi-calculation-of-5-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8034796700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the chrome browser",
+            "match": {
+              "location": "stepDefinition.open_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2596464500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open Calculator URL",
+            "match": {
+              "location": "stepDefinition.open_Calculator_URL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16852100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "validate Calculator page",
+            "match": {
+              "location": "stepDefinition.validate_Calculator_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1639199300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navigate to BMI Calculator link",
+            "match": {
+              "location": "stepDefinition.navigate_to_BMI_Calculator_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6466300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate BMI Calculator Page",
+            "match": {
+              "location": "stepDefinition.validate_BMI_Calculator_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 207744100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "entered input  Age10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinition.entered_input_Age(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 263298300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "entered input Height127",
+            "match": {
+              "arguments": [
+                {
+                  "val": "127",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinition.entered_input_Height(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 243090700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "entered input Weight40",
+            "match": {
+              "arguments": [
+                {
+                  "val": "40",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinition.entered_input_Weight(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 851776200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Calculate BMI",
+            "match": {
+              "location": "stepDefinition.calculate_BMI()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 110250000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "capture the BMI value",
+            "match": {
+              "location": "stepDefinition.capture_the_BMI_value()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "BMI Calculation of 5 user",
+        "description": "",
+        "id": "to-test-bmi-calculation;bmi-calculation-of-5-user;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6264327900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the chrome browser",
+            "match": {
+              "location": "stepDefinition.open_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2418090500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open Calculator URL",
+            "match": {
+              "location": "stepDefinition.open_Calculator_URL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16898800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "validate Calculator page",
+            "match": {
+              "location": "stepDefinition.validate_Calculator_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1750022400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navigate to BMI Calculator link",
+            "match": {
+              "location": "stepDefinition.navigate_to_BMI_Calculator_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9027500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate BMI Calculator Page",
+            "match": {
+              "location": "stepDefinition.validate_BMI_Calculator_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 216591400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "entered input  Age30",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinition.entered_input_Age(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 223739900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "entered input Height156",
+            "match": {
+              "arguments": [
+                {
+                  "val": "156",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinition.entered_input_Height(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 584039000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "entered input Weight70",
+            "match": {
+              "arguments": [
+                {
+                  "val": "70",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinition.entered_input_Weight(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 974249200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Calculate BMI",
+            "match": {
+              "location": "stepDefinition.calculate_BMI()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 128651700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "capture the BMI value",
+            "match": {
+              "location": "stepDefinition.capture_the_BMI_value()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "BMI Calculation of 5 user",
+        "description": "",
+        "id": "to-test-bmi-calculation;bmi-calculation-of-5-user;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6488589300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the chrome browser",
+            "match": {
+              "location": "stepDefinition.open_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2862066500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open Calculator URL",
+            "match": {
+              "location": "stepDefinition.open_Calculator_URL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18202800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "validate Calculator page",
+            "match": {
+              "location": "stepDefinition.validate_Calculator_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2053725100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navigate to BMI Calculator link",
+            "match": {
+              "location": "stepDefinition.navigate_to_BMI_Calculator_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16961600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate BMI Calculator Page",
+            "match": {
+              "location": "stepDefinition.validate_BMI_Calculator_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 300032100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "entered input  Age25",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinition.entered_input_Age(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 382510200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "entered input Height152",
+            "match": {
+              "arguments": [
+                {
+                  "val": "152",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinition.entered_input_Height(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 710767000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "entered input Weight55",
+            "match": {
+              "arguments": [
+                {
+                  "val": "55",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinition.entered_input_Weight(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 777709700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Calculate BMI",
+            "match": {
+              "location": "stepDefinition.calculate_BMI()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 113862000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "capture the BMI value",
+            "match": {
+              "location": "stepDefinition.capture_the_BMI_value()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "BMI Calculation of 5 user",
+        "description": "",
+        "id": "to-test-bmi-calculation;bmi-calculation-of-5-user;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6845779800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the chrome browser",
+            "match": {
+              "location": "stepDefinition.open_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2449440300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open Calculator URL",
+            "match": {
+              "location": "stepDefinition.open_Calculator_URL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21919900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "validate Calculator page",
+            "match": {
+              "location": "stepDefinition.validate_Calculator_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1492456900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navigate to BMI Calculator link",
+            "match": {
+              "location": "stepDefinition.navigate_to_BMI_Calculator_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11827200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate BMI Calculator Page",
+            "match": {
+              "location": "stepDefinition.validate_BMI_Calculator_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 295433400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "entered input  Age20",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinition.entered_input_Age(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 349841400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "entered input Height160",
+            "match": {
+              "arguments": [
+                {
+                  "val": "160",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinition.entered_input_Height(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 672165200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "entered input Weight45",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinition.entered_input_Weight(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1067015800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Calculate BMI",
+            "match": {
+              "location": "stepDefinition.calculate_BMI()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 419723100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "capture the BMI value",
+            "match": {
+              "location": "stepDefinition.capture_the_BMI_value()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "BMI Calculation of 5 user",
+        "description": "",
+        "id": "to-test-bmi-calculation;bmi-calculation-of-5-user;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7186590800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the chrome browser",
+            "match": {
+              "location": "stepDefinition.open_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2819572800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open Calculator URL",
+            "match": {
+              "location": "stepDefinition.open_Calculator_URL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13105400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "validate Calculator page",
+            "match": {
+              "location": "stepDefinition.validate_Calculator_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1546452900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navigate to BMI Calculator link",
+            "match": {
+              "location": "stepDefinition.navigate_to_BMI_Calculator_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16095500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate BMI Calculator Page",
+            "match": {
+              "location": "stepDefinition.validate_BMI_Calculator_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 257658200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "entered input  Age35",
+            "match": {
+              "arguments": [
+                {
+                  "val": "35",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinition.entered_input_Age(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 415021500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "entered input Height160",
+            "match": {
+              "arguments": [
+                {
+                  "val": "160",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinition.entered_input_Height(int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 344795000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "entered input Weight70",
+            "match": {
+              "arguments": [
+                {
+                  "val": "70",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinition.entered_input_Weight(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1165443800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Calculate BMI",
+            "match": {
+              "location": "stepDefinition.calculate_BMI()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 110670600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "capture the BMI value",
+            "match": {
+              "location": "stepDefinition.capture_the_BMI_value()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "To test BMI Calculation",
+    "description": "",
+    "id": "to-test-bmi-calculation",
+    "keyword": "Feature",
+    "uri": "./src/test/java/features/calculateBMI.feature"
+  }
+]
